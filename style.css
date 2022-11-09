@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 /* GENERAL */
+
 body{
     max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +15,9 @@ body{
 .flex{
     display: flex;
 }
-/* UTILITIES */
+
+/* UTILS */
+
 header{
     background-color: white ;
 }
@@ -24,6 +27,7 @@ main{
 footer{
     background-color: black;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -35,20 +39,23 @@ img{
     max-width: 130%;
     display: block;
 }
-/* HEADER */
+.text{
+    line-height: 25px;
+}
+
+/* NAV */
+
 .nav-container{
     height: 70px;
-    display: flex;
+
     justify-content: space-between;
     align-items: center;
-    
 }
 .nav-container ul> *{
     display: inline;
     margin: 10px;
 }
 .left-nav{
-    display: flex;
     align-items: center;
 }
 #start-button{
@@ -56,9 +63,7 @@ img{
     background-color: rgb(0, 60, 255);
     padding: 10px 15px;
 }
-.text{
-    line-height: 25px;
-}
+
 /* JUMBOTRON */
 
 .jumbotron-container{
@@ -96,6 +101,7 @@ img{
     position: absolute;
     bottom: 0;
 }
+
 /* MAIN */
 
 /* FOOTER */
