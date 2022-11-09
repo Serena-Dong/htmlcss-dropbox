@@ -10,9 +10,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .border{
+    border: black 2px dashed;
 }
 .flex{
     display: flex;
+
 }
 
 /* UTILS */
@@ -22,12 +24,18 @@ header{
 }
 main{
     background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 footer{
     background-color: black;
 }
 
-a{
+a:not(.final a){
     text-decoration: none;
     color: black;
 }
@@ -38,10 +46,15 @@ img{
     max-width: 100%;
     display: block;
 }
+h2{
+    font-size: 30px;
+}
 .text{
     line-height: 25px;
 }
-
+.card{
+    justify-content: space-between;
+}
 /* NAV */
 
 .nav-container{
@@ -71,6 +84,7 @@ img{
 
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 .content{
     width: 1200px;
@@ -80,15 +94,14 @@ img{
     font-size: 35px;
     margin-bottom: 50px;
 }
-.card{
-    justify-content: space-between;
+.jumbotron-card{
     height: 360px;
     position: relative;
 }
-.left-card{
+.jumbotron-left-card{
     flex-basis: 30%;
 }
-.right-card{
+.jumbotron-right-card{
     flex-basis: 70%;
 }
 .jumbotron-text > *{
@@ -100,7 +113,41 @@ img{
     bottom: 0;
 }
 
-
 /* MAIN */
+.main-container>*{
+    margin-bottom: 100px;
+}
+.main-container{
+    width: 1000px;
+}
+.plan{
+    height: 1000px;
+}
+.img{
+    height: 500px;
+}
+.left-card{
+    flex-basis: 55%;
+}
+.right-card{
+    flex-basis: 45%;
+}
+.detail{
+    height: 800px;
+}
+.final{
+    height: 300px;
+    width: 530px;
+}
+.partnership-container{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+}
+
+
+
+
+
 
 /* FOOTER */
