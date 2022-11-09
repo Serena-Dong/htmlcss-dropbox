@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* GENERAL */
+body{
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.border{
+    border: 2px black dashed;
+}
+.flex{
+    display: flex;
+}
+/* UTILITIES */
+header{
+    background-color: white ;
+}
+main{
+    background-color: white;
+}
+footer{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+img{
+    max-width: 130%;
+    display: block;
+}
+/* HEADER */
+.nav-container{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-container ul> *{
+    display: inline;
+    margin: 10px;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+#start-button{
+    color: white;
+    background-color: rgb(0, 60, 255);
+    padding: 10px 15px;
+}
+.text{
+    line-height: 25px;
+}
+/* JUMBOTRON */
+
+.jumbotron-container{
+    background-color: rgb(175, 213, 253);
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 1000px;
+    padding: 70px 40px;
+
+    position: relative;
+}
+.title-jumbotron{
+    font-size: 31px;
+    margin-bottom: 50px;
+}
+.card{
+    justify-content: space-between;
+    height: 330px;
+}
+.left-card{
+    flex-basis: 40%;
+}
+.right-card{
+    flex-basis: 60%;
+}
+.jumbotron-text > *{
+    margin-bottom: 20px;
+}
+.arrow-down{
+    font-size: 40px;
+    position: absolute;
+    bottom: 0;
+}
+/* MAIN */
+
+/* FOOTER */
