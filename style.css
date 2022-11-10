@@ -46,11 +46,19 @@ img{
     max-width: 100%;
     display: block;
 }
+p{
+    font-size: 15px;
+}
 h2{
     font-size: 30px;
 }
+h3{
+    font-size: 25px;
+    line-height: 33px;
+}
 .text {
     line-height: 25px;
+    
 }
 .card{
     justify-content: space-between;
@@ -136,7 +144,7 @@ h2{
     background-color: rgb(0, 229, 255);
 }
 .plan-row{
-    height: 70%;
+    height: 700px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
@@ -146,12 +154,19 @@ h2{
     background-color: white;
 }
 .horizontol-col{
-    height: 30%;
+    height: 20%;
     background-color: white;
      
 }
-
-
+.main-text{ 
+    height: 170px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.check>*{
+    margin-right: 30px;
+    display: inline;
+}
 
 
 
@@ -162,7 +177,7 @@ h2{
 
 .image{
     height: 470px;
-    background-color: rgb(0, 229, 255);
+
 
 }
 .left-card{
@@ -170,6 +185,12 @@ h2{
 }
 .right-card{
     flex-basis: 45%;
+}
+.side-text{
+    padding: 50px;
+}
+.side-text>*{
+    margin-bottom: 10px;
 }
 
 /* detail */
