@@ -57,6 +57,7 @@ h2{
 h3{
     font-size: 25px;
     line-height: 33px;
+    margin-bottom: 30px;
 }
 h4{
     font-size: 18px;
@@ -69,8 +70,6 @@ h4{
     height: 1px;
     border: 1px white solid;
 }
-
-
 
 
 .row{
@@ -226,11 +225,27 @@ h4{
     flex-direction: column;
     justify-content: space-around;
 }
-.checkbox>*{
-    margin-right: 30px;
-    display: inline;
+
+.checkbox > *{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+
 }
 
+.circle{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid lightgrey 2px;
+    margin-right: 5px;
+
+    
+}
+.clicked{
+    border: solid  blue 4px;
+}
 
 /*plan-col*/
 .head{
