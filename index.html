@@ -69,17 +69,17 @@
     <main>
         <div class="main-container border">
             
-            <!-- PIANI -->
+            <!-- SEZIONI PIANI -->
             <section class="plan border">
                 <!-- TITOLO -->
                 <div class="text main-text flex">
                     <h2>Trova il piano business che fa per te</h2>
-                    <div class="check"><p>Fatturazione mensile</p> <p>Fatturazione annuale</p></div>
+                    <div class="checkbox"><p>Fatturazione mensile</p> <p>Fatturazione annuale</p></div>
                 </div>
                 <!-- COLONNE -->
-                <div class="plan-row">
+                <div class="row g-40 mb-30 flex">
 
-                    <div class="plan-col border">
+                    <div class="col border">
                         <div class="head flex">
                             <i class="fa-solid fa-user"></i>
                             <span>Singolo</span>
@@ -90,16 +90,14 @@
                                 <h4>€12.00</h4>
                                 <datetime>/mese</datetime>
                             </div>
-                            <ul class="functions">
-                                <div class="icon-list flex">
-                                    <i class="fa-solid fa-user"></i><li> 1 utente</li>
-                                </div>
-                                <div class="icon-list flex">
-                                    <i class="fa-solid fa-folder"></i><li> 5 TB di spazio di archiviazione sicuro</li>
-                                </div>                               
-                                <div class="icon-list flex">
-                                    <i class="fa-solid fa-share-nodes"></i><li> Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                                </div>                               
+                            <ul class="functions fa-ul" style="--fa-li-margin: 1em;">
+                                
+                                <li><span class="fa-li"><i class="fa-solid fa-user"></i></span> 1 utente</li>
+                                
+                                <li> <span class="fa-li"><i class="fa-solid fa-folder"></i></span> 5 TB di spazio di archiviazione sicuro</li>
+                                
+                                <li> <span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                            
                             </ul>
                             <div class="plan-button">
                                 <a href="" id="plan-button" class="bg-blue">Prova gratis per 30 giorni</a>
@@ -116,7 +114,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="plan-col border">
+                    <div class="col border">
                         <div class="head flex">
                             <i class="fa-solid fa-users"></i><span>Team</span>
                         </div>
@@ -160,7 +158,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="plan-col border">
+                    <div class="col border">
                         <div class="head flex">
                             <i class="fa-solid fa-building"></i>
                             <span>Azienda</span>
@@ -227,12 +225,12 @@
 
             </section>
 
-            <!-- IMMAGINE -->
+            <!-- SEZIONE IMMAGINE -->
             <section class="image border flex">
-                <div class="left-card border">
+                <div class="col-60 border">
                     <img src="./assets/img/partner.png" alt="">
                 </div>
-                <div class="right-card side-text border">
+                <div class="col-40 side-text border">
                     <div class="text  ">
                         <h3>Entra in contatto con un partner Dropbox</h3>
                         <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
@@ -243,26 +241,51 @@
                 </div>
             </section>
 
-            <!-- DETTAGLI -->
+            <!-- SEZIONE DETTAGLI -->
             <section class="detail border">
-                <div class="detail-title">
+                <div class="detail-title mb30">
                     <h2>Esegui più operazioni con Dropbox Business</h2>
                 </div>
-                <div class="detail-row flex">
-                    <div class="detail-col border"></div>
-                    <div class="detail-col border"></div>
-                    <div class="detail-col border"></div>
+                <div class="row mb-30 g-40 flex">
+                    <div class="col detail-card border">
+                        <img src="./assets/img/business-feature-switching-tools.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, at placeat voluptatum dolores numquam iure magni mollitia esse, ab rem alias nobis eaque eligendi adipisci? Id, eius! Ea atque earum, quibusdam sapiente officiis hic a </p>
+                    </div>
+                    <div class="col detail-card border">
+                        <img src="./assets/img/business-feature-send-files-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, at placeat voluptatum dolores numquam iure magni mollitia esse, ab rem alias nobis eaque eligendi adipisci? Id, eius! Ea atque earum, quibusdam sapiente officiis hic a </p>
+                    </div>
+                    <div class="col detail-card border">
+                        <img src="./assets/img/business-feature-coordinate-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, at placeat voluptatum dolores numquam iure magni mollitia esse, ab rem alias nobis eaque eligendi adipisci? Id, eius! Ea atque earum, quibusdam sapiente officiis hic a </p>
+                    </div>
                 </div>
-                <div class="detail-row flex">
-                    <div class="detail-col border"></div>
-                    <div class="detail-col border"></div>
-                    <div class="detail-col border"></div>
+                <div class="row mb-30 g-40 flex">
+                    <div class="col detail-card border">
+                        <img src="./assets/img/business-feature-integrations-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, at placeat voluptatum dolores numquam iure magni mollitia esse, ab rem alias nobis eaque eligendi adipisci? Id, eius! Ea atque earum, quibusdam sapiente officiis hic a </p>
+                    </div>
+                    <div class="col detail-card border">
+                        <img src="./assets/img/business-feature-multi-device.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, at placeat voluptatum dolores numquam iure magni mollitia esse, ab rem alias nobis eaque eligendi adipisci? Id, eius! Ea atque earum, quibusdam sapiente officiis hic a </p>
+                    </div>
+                    <div class="col detail-card border">
+                        <img src="./assets/img/business-feature-security.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, at placeat voluptatum dolores numquam iure magni mollitia esse, ab rem alias nobis eaque eligendi adipisci? Id, eius! Ea atque earum, quibusdam sapiente officiis hic a </p>
+                    </div>
                 </div>
 
 
 
 
             </section>
+
             <section class="final flex border">
                 <h2>Più di 500.00 team utilizzano Dropbox Business</h2>
                 <a class="default" href="">Scopri di più sui nostri clienti</a>
@@ -275,24 +298,20 @@
 
 
 
-            <section class="partnership border">
-                <div class="partnership-row flex">
-                    <div class="partnership-col border">
-                        <div class="mini-row flex">
-                            <div class="mini-col border"></div>
-                            <div class="mini-col border"></div>
-                            <div class="mini-col border"></div>
-                            <div class="mini-col border"></div>
-                        </div>
+            <section class="clients border">
+                <div class="square-container flex">
+                    <div class="square border">
+                        <div class="mini-square border"></div>
+                        <div class="mini-square border"></div>
+                        <div class="mini-square border"></div>
+                        <div class="mini-square border"></div>
                     </div>
-                    <div class="partnership-col border"></div>
-                    <div class="partnership-col border">
-                        <div class="mini-row flex">
-                            <div class="mini-col border"></div>
-                            <div class="mini-col border"></div>
-                            <div class="mini-col border"></div>
-                            <div class="mini-col border"></div>
-                        </div>
+                    <div class="square border"></div>
+                    <div class="square border">
+                        <div class="mini-square border"></div>
+                        <div class="mini-square border"></div>
+                        <div class="mini-square border"></div>
+                        <div class="mini-square border"></div>
                     </div>
                 </div>
 
@@ -308,7 +327,7 @@
 
         </div>
  
-        <div class="question-container  border">
+        <div class="question-container border">
             <section class="questions"></section>
         </div>
     </main>
