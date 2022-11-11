@@ -38,8 +38,7 @@
        </div>
 
        <!-- JUMBOTRON -->
-
-       <div class="jumbotron-container">
+       <div class="jumbotron">
         <div class="container">
             <div class="title-header">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
@@ -54,7 +53,7 @@
                         <p>Annulla in qualsiasi momento</p>
                     </div>
                     <div class="arrow-down">
-                        <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#plan"><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
                 </div>
                 <div class="col-70">
@@ -62,15 +61,16 @@
                 </div>
             </div>
         </div>
-
+   
        </div>
+
     </header>
 
     <main>
         <div class="main-container ">
             
             <!-- SEZIONI PIANI -->
-            <section class="plan ">
+            <section class="plan" id="plan">
 
                 <!-- TITOLO -->
                 <div class="text main-text flex">
@@ -234,8 +234,8 @@
                     <img src="./assets/img/partner.png" alt="">
                 </div>
                 <div class="col-40 side-text">
-                    <div class="text  ">
-                        <h3>Entra in contatto con un partner Dropbox</h3>
+                    <div class="text">
+                        <h3 class="mb-30">Entra in contatto con un partner Dropbox</h3>
                         <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
                     </div>
                     <div class="button">
@@ -296,7 +296,7 @@
 
         <div class="large-container">
 
-            <!-- CLIENTS-->
+            <!-- SEZIONE CLIENTS-->
             <section class="clients">
                 <div class="square-container flex">
                     <div class="square">
@@ -317,6 +317,7 @@
                     <div class="square">
                          <div class="normal-square">
                              <img class="mb-30" src="./assets/img/designit.svg" alt="">
+                             <div class="linea"></div>
                              <div class="text">
                                 <p class="mb-30 mt-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam delectus quasi magni nostrum neque autem ducimus dignissimos ullam facere animi, ratione iusto impedit placeat alias architecto nulla tempora, fugit explicabo?</p>
                                 <p>Marten Thomsen, Global IT lead</p>
@@ -342,7 +343,7 @@
             </section>
 
 
-            <!-- NO NAME -->
+            <!-- SEZIONE NO NAME -->
             <section class="no-name ">
             <div class="no-name-container flex">
                     <div class="col-60 no-name-text ">
@@ -355,9 +356,37 @@
             </section>
 
         </div>
- 
-        <div class="question-container border">
-            <section class="questions"></section>
+
+        <div class="main-container">            
+            <div class="question-container">
+                <section class="questions">
+                    <h2 class="mb-100">Domande frequenti</h2> 
+                    <div class="row question-row">
+                        <div class="col-90">
+                            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Advanced?</h4>
+                        </div>
+                        <div class="col-10">
+                            <span><a href=""><i class="fa-solid fa-angle-down"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="row question-row">
+                        <div class="col-90">
+                            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Advanced?</h4>
+                        </div>
+                        <div class="col-10">
+                            <span><a href=""><i class="fa-solid fa-angle-down"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="row question-row bb-1">
+                        <div class="col-90">
+                            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Advanced?</h4>
+                        </div>
+                        <div class="col-10">
+                            <span><a href=""><i class="fa-solid fa-angle-down"></i></a></span>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
     </main>
 
@@ -420,7 +449,8 @@
                 </nav>
             </div>
             <div class="footer-bottom">
-                <p class="bt-3 blocco"><i class="fa-solid fa-earth-americas"></i> Italiano </p>
+                <div class="linea"></div>
+                <p class=" blocco"><i class="fa-solid fa-earth-americas"></i> Italiano </p>
             </div>
         </div>
     </footer>
